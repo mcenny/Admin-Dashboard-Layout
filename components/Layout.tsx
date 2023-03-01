@@ -34,7 +34,7 @@ function Layout({ children }: any) {
                 as={Fragment}
                 show={showNav}
                 enter='transform transition duration-[400ms]'
-                enterFrom='translate-x-full'
+                enterFrom='-translate-x-full'
                 enterTo='translate-x-0'
                 leave='transform duration-[400ms] transition ease-in-ouy'
                 leaveFrom='translate-x-0'
